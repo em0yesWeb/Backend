@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 setupWebSocketFlask();
 
 // WebSocket - Flask 설정 호출
-setupWebSocketClient(server);
+setupWebSocketClient(server);s
 
 server.listen(8080, () => {
     console.log('Server running on port 8080');
